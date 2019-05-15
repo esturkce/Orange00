@@ -2,6 +2,7 @@
 <suite name="Smoke tests" verbose="2">
     <test name="smoke tests">
         <packages>
+            <package name="Tests.Smoke"/>
         </packages>
         </test>
 </suite>
