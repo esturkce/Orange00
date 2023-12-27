@@ -21,8 +21,8 @@ public class Admin extends TestBase {
     @Test
     public void login() {
         driver.get("https://opensource-demo.orangehrmlive.com/");
-        driver.findElement(By.id("txtUsername")).sendKeys("Admin");
-        driver.findElement(By.id("txtPassword")).sendKeys("admin123");
+        //driver.findElement(By.id("txtUsername")).sendKeys("Admin");
+        //driver.findElement(By.id("txtPassword")).sendKeys("admin123");
         driver.findElement(By.id("btnLogin")).click();
         WebElement admin = driver.findElement(By.id("welcome"));
         Assert.assertTrue(admin.isDisplayed());
